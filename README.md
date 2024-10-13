@@ -16,7 +16,7 @@ This project relies on the basic version of the US Cities database from https://
 
 * This may be because the prompt was not eliciting a precise answer, or the model guessing when the pairwise distance was not memorised, or a mixture of the two.
 
-* I find that these groups, which I term 'Guess' and 'Confident', can be detected by activation of features extracted by SAE trained on the MLP layers, measured from the Gemma-Scope data set, when looking at activations on the final token at layer 21. 
+* I find that these groups, which I term 'Guess' and 'Confident', can be detected by activation of features extracted by SAE trained on the residual stream, measured from the Gemma-Scope data set, when looking at activations on the final token at layer 21. 
 
 * Features that clearly differ in activation, and are important in classification of 'Guess' and 'Confident', seem to fire on plain and scientific English respectively.
 
